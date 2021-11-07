@@ -1,0 +1,4 @@
+flask
+redis
+werkzeug
+boto3
