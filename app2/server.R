@@ -7,7 +7,7 @@ Sys.setenv(
 get_bucket(bucket ='')
 
 # read data from s3
-data12 <- s3read_using(FUN = readRDS, object = "s3://recycler20211008/data12.rds")
+data12 <- s3read_using(FUN = readRDS, object = "")
 summary(data12)
 
 server <- function(input, output,session) {
